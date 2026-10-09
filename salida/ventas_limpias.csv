@@ -1,0 +1,61 @@
+venta_id,fila_csv,fecha,producto_id,nombre,categoria,unidades,precio_unitario,ingreso
+V001,2,2026-10-01,P01,Cuaderno,Papelería,1,5,5
+V002,3,2026-10-02,P02,Bolígrafo,Papelería,2,2,4
+V003,4,2026-10-03,P03,Taza,Hogar,3,12,36
+V004,5,2026-10-04,P04,Lámpara,Hogar,4,25,100
+V005,6,2026-10-05,P05,Cable USB,Tecnología,1,8,8
+V006,7,2026-10-06,P06,Ratón,Tecnología,2,18,36
+V007,8,2026-10-07,P07,Botella,Deporte,3,15,45
+V008,9,2026-10-01,P08,Esterilla,Deporte,4,20,80
+V009,10,2026-10-02,P01,Cuaderno,Papelería,1,5,5
+V010,11,2026-10-03,P02,Bolígrafo,Papelería,2,2,4
+V011,12,2026-10-04,P03,Taza,Hogar,3,12,36
+V012,13,2026-10-05,P04,Lámpara,Hogar,4,25,100
+V013,14,2026-10-06,P05,Cable USB,Tecnología,1,8,8
+V014,15,2026-10-07,P06,Ratón,Tecnología,2,18,36
+V015,16,2026-10-01,P07,Botella,Deporte,3,15,45
+V016,17,2026-10-02,P08,Esterilla,Deporte,4,20,80
+V017,18,2026-10-03,P01,Cuaderno,Papelería,1,5,5
+V018,19,2026-10-04,P02,Bolígrafo,Papelería,2,2,4
+V019,20,2026-10-05,P03,Taza,Hogar,3,12,36
+V020,21,2026-10-06,P04,Lámpara,Hogar,4,25,100
+V021,22,2026-10-07,P05,Cable USB,Tecnología,1,8,8
+V022,23,2026-10-01,P06,Ratón,Tecnología,2,18,36
+V023,24,2026-10-02,P07,Botella,Deporte,3,15,45
+V024,25,2026-10-03,P08,Esterilla,Deporte,4,20,80
+V025,26,2026-10-04,P01,Cuaderno,Papelería,1,5,5
+V026,27,2026-10-05,P02,Bolígrafo,Papelería,2,2,4
+V027,28,2026-10-06,P03,Taza,Hogar,3,12,36
+V028,29,2026-10-07,P04,Lámpara,Hogar,4,25,100
+V029,30,2026-10-01,P05,Cable USB,Tecnología,1,8,8
+V030,31,2026-10-02,P06,Ratón,Tecnología,2,18,36
+V031,32,2026-10-03,P07,Botella,Deporte,3,15,45
+V032,33,2026-10-04,P08,Esterilla,Deporte,4,20,80
+V033,34,2026-10-05,P01,Cuaderno,Papelería,1,5,5
+V034,35,2026-10-06,P02,Bolígrafo,Papelería,2,2,4
+V035,36,2026-10-07,P03,Taza,Hogar,3,12,36
+V036,37,2026-10-01,P04,Lámpara,Hogar,4,25,100
+V037,38,2026-10-02,P05,Cable USB,Tecnología,1,8,8
+V038,39,2026-10-03,P06,Ratón,Tecnología,2,18,36
+V039,40,2026-10-04,P07,Botella,Deporte,3,15,45
+V040,41,2026-10-05,P08,Esterilla,Deporte,4,20,80
+V041,42,2026-10-06,P01,Cuaderno,Papelería,1,5,5
+V042,43,2026-10-07,P02,Bolígrafo,Papelería,2,2,4
+V043,44,2026-10-01,P03,Taza,Hogar,3,12,36
+V044,45,2026-10-02,P04,Lámpara,Hogar,4,25,100
+V045,46,2026-10-03,P05,Cable USB,Tecnología,1,8,8
+V046,47,2026-10-04,P06,Ratón,Tecnología,2,18,36
+V047,48,2026-10-05,P07,Botella,Deporte,3,15,45
+V048,49,2026-10-06,P08,Esterilla,Deporte,4,20,80
+V049,50,2026-10-07,P01,Cuaderno,Papelería,1,5,5
+V050,51,2026-10-01,P02,Bolígrafo,Papelería,2,2,4
+V051,52,2026-10-02,P03,Taza,Hogar,3,12,36
+V052,53,2026-10-03,P04,Lámpara,Hogar,4,25,100
+V053,54,2026-10-04,P05,Cable USB,Tecnología,1,8,8
+V054,55,2026-10-05,P06,Ratón,Tecnología,2,18,36
+V055,56,2026-10-06,P07,Botella,Deporte,3,15,45
+V056,57,2026-10-07,P08,Esterilla,Deporte,4,20,80
+V057,58,2026-10-01,P01,Cuaderno,Papelería,1,5,5
+V058,59,2026-10-02,P02,Bolígrafo,Papelería,2,2,4
+V059,60,2026-10-03,P03,Taza,Hogar,3,12,36
+V060,61,2026-10-04,P04,Lámpara,Hogar,4,25,100

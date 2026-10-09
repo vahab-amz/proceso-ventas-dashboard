@@ -1,0 +1,65 @@
+{
+  "generado_en": "2026-10-09T17:48:35.690Z",
+  "entrada": {
+    "filas_ventas": 70,
+    "productos_catalogo": 8
+  },
+  "operaciones_validas": 60,
+  "duplicados_excluidos": 5,
+  "incidencias_excluidas": 5,
+  "comprobacion": "70 filas = 60 válidas + 5 duplicados + 5 incidencias",
+  "duplicados": [
+    {
+      "venta_id": "V003",
+      "fila_csv": 62,
+      "motivo": "copia exacta de la fila 4"
+    },
+    {
+      "venta_id": "V011",
+      "fila_csv": 63,
+      "motivo": "copia exacta de la fila 12"
+    },
+    {
+      "venta_id": "V021",
+      "fila_csv": 64,
+      "motivo": "copia exacta de la fila 22"
+    },
+    {
+      "venta_id": "V036",
+      "fila_csv": 65,
+      "motivo": "copia exacta de la fila 37"
+    },
+    {
+      "venta_id": "V049",
+      "fila_csv": 66,
+      "motivo": "copia exacta de la fila 50"
+    }
+  ],
+  "incidencias": [
+    {
+      "venta_id": "V061",
+      "fila_csv": 67,
+      "motivo": "unidades vacío"
+    },
+    {
+      "venta_id": "V062",
+      "fila_csv": 68,
+      "motivo": "precio_unitario vacío"
+    },
+    {
+      "venta_id": "V063",
+      "fila_csv": 69,
+      "motivo": "producto_id inexistente en el catálogo (P99)"
+    },
+    {
+      "venta_id": "V064",
+      "fila_csv": 70,
+      "motivo": "unidades no es un entero mayor que cero (-2)"
+    },
+    {
+      "venta_id": "V065",
+      "fila_csv": 71,
+      "motivo": "precio_unitario no numérico (gratis)"
+    }
+  ]
+}
