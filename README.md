@@ -2,7 +2,7 @@
 
 Práctica 5074. Proceso reproducible que lee dos fuentes, detecta incidencias, relaciona ventas con productos y publica métricas verificadas en un dashboard Next.js.
 
-- **Dashboard publicado:** _añadir URL de Vercel_
+- **Dashboard publicado:** https://proceso-ventas-dashboard.vercel.app/
 - **Salidas del proceso:** [`salida/resumen.json`](salida/resumen.json), [`salida/calidad.json`](salida/calidad.json) y [`salida/ventas_limpias.csv`](salida/ventas_limpias.csv)
 
 ## Pregunta
@@ -115,7 +115,7 @@ En total son 60 operaciones válidas y 150 unidades.
 4. **`ventas_limpias.csv` coincide con `resumen.json`:** 60 operaciones, 150 unidades, 2343 € y el mismo reparto por categoría.
 5. **El proceso es reproducible:** se ejecutó dos veces seguidas y `resumen.json`, `calidad.json` y `ventas_limpias.csv` salieron idénticos, salvo `generado_en`.
 6. **Casos que no están en el CSV:** se probaron sobre una copia de los datos. Un ID repetido con datos distintos genera un conflicto en sus dos filas. `2026-02-30` se marca como fecha no válida, `2026-10-08` como fuera del periodo y `1.5` unidades como no entero.
-7. **URL publicada:** _comprobar que la fecha de generación del dashboard coincide con `generado_en` del último `resumen.json` subido._
+7. **URL publicada:** la web muestra «Generado el 9 de octubre de 2026, 19:48:35 (hora de Madrid)» y el `generado_en` de `salida/resumen.json` es `2026-10-09T17:48:35.690Z`. Son el mismo instante: la `Z` indica hora UTC y en octubre Madrid está en UTC+2 (17:48 + 2 h = 19:48). La web muestra además 2343,00 € de ingresos totales, igual que `resumen.json`. Por tanto, la URL sirve el último resultado incorporado.
 
 La pestaña *Comprobaciones* del dashboard recalcula los puntos 1 a 4 con los archivos de salida en cada build.
 
